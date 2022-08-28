@@ -27,23 +27,18 @@ body {
     background-color: floralwhite;
     margin: auto;
     position: absolute;
-    top: 50px; left: 50px;
-    bottom: 50px; right: 50px;
-    color: #9fa8a3;
-    z-index:5;
+    top: 50px;
+    left: 50px;
+    bottom: 50px;
+    right: 50px;
+    color: dimgrey;
+    z-index: 5;
 
-    box-shadow:
-        /* The top layer shadow */
-            0 -1px 1px rgba(0,0,0,0.15),
-                /* The second layer */
-            0 -10px 0 -5px #eee,
-                /* The second layer shadow */
-            0 -10px 1px -4px rgba(0,0,0,0.15),
-                /* The third layer */
-            0 -20px 0 -10px #eee,
-                /* The third layer shadow */
-            0 -20px 1px -9px rgba(0,0,0,0.15);
-    /* Padding for demo purposes */
+    box-shadow: /* The top layer shadow */ 0 -1px 1px rgba(0, 0, 0, 0.15),
+        /* The second layer */ 0 -10px 0 -5px #eee,
+        /* The second layer shadow */ 0 -10px 1px -4px rgba(0, 0, 0, 0.15),
+        /* The third layer */ 0 -20px 0 -10px #eee,
+        /* The third layer shadow */ 0 -20px 1px -9px rgba(0, 0, 0, 0.15);
     padding: 30px;
 
 }
@@ -74,4 +69,13 @@ body {
     height: 300px;
     /*background-color: #c5d5cb;*/
     background-color: #e3e0cf;
+}
+
+.firstLastName {
+    color: #9fa8a3;
+    text-shadow: 2px 2px #000000;
+}
+
+td,th {
+    padding: 10px;
 }
